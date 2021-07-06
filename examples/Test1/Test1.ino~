@@ -1,0 +1,16 @@
+
+#include <JackVan.h>
+
+JackVan Van1(13);
+
+void setup()
+{
+}
+
+void loop()
+{
+  Van1.dot(); Van1.dot(); Van1.dot();
+  Van1.dash(); Van1.dash(); Van1.dash();
+  Van1.dot(); Van1.dot(); Van1.dot();
+  delay(3000);
+}
